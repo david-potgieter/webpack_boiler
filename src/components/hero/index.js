@@ -1,8 +1,7 @@
 import angular from 'angular';
 
 import HeroController from './hero.controller';
-import selector from './hero.directive';
 
-export default angular.module('app.hero', [selector])
+export default angular.module('app.hero', [])
   .controller('HeroController', HeroController)
   .name;

@@ -4,7 +4,8 @@
   "description": "http://jamesknelson.com/using-es6-in-the-browser-with-babel-6-and-webpack/",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --config webpack.config.js --progress --colors --watch",
+    "dev": "webpack-dev-server --config webpack.config.js --progress --colors --watch --inline",
+    "dev-serve": "webpack-dev-server --content-base ./ --inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -28,7 +29,8 @@
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",
     "susy": "^2.2.12",
-    "webpack": "^2.2.0"
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
     "angular": "^1.6.1",

@@ -1,5 +1,5 @@
 import angular from 'angular';
-import hero from './comps/hero';
+import hero from './components/hero';
 
 require('./app.scss');
 
