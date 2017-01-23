@@ -1,0 +1,27 @@
+.hero{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    .convo{
+        font-size: 56px;
+        color: #999999;
+    }
+    .selected{
+        color: black;
+    }
+    section{
+        display: inline-block;
+        select{
+            border: none;
+            background: none;
+            border-bottom: 2px solid black;
+            border-radius: 0px;
+            -webkit-appearance: none;
+            -webkit-border-radius: 0px;
+            optgroup{
+                font-size: 30px;
+            }
+        }
+    }
+    .blocks{
+        margin-top: 60px;
+    }
+}
